@@ -177,8 +177,11 @@ class cxpan:
 
 
 if __name__ == '__main__':
-    uid = '94649288'
-    uf = 'b2d2c93beefa90dc170077f2e681735b4ee92ae0967ae5c75407199b7d24e63fe4face37fdaf4f799b2f97e979079bbbd807a544f7930b6abeaaa6286f1f1754b37ecd2f1b804b880d8a4c92b12beb4be4cd98aa8d0fb2aa9eda0b2d9c60a7c0d00a2326ac07a43e'
+    # uid和uf是两个作身份识别的cookies，可以在浏览器中获取
+    # 请添加homeid和enc获取方法
+    # 待添加账号密码登录
+    uid = ''
+    uf = ''
     pan = cxpan(uid, uf)
     pan.ls()
     cmd = ''
